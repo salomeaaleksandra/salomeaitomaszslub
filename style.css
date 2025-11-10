@@ -7,12 +7,20 @@
 
 
 @font-face {
+  font-family: 'Haigrast Script';
+  src: url('fonts/HaigrastScript_PERSONAL_USE_ONLY.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Abramo Script';
   src: url('fonts/Abramo Script.woff2') format('woff2'),
        url('fonts/Abramo Script.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 
 @font-face {
   font-family: 'Abramo Regular';
@@ -100,6 +108,17 @@ html {
   margin-top: -8px;
   color: #a6a6a6
 }
+
+.initial {
+  font-family: 'Haigrast Script';
+  font-weight: normal;
+  font-size: inherit;      /* ten sam rozmiar co reszta imienia */
+  line-height: inherit;    /* dopasowanie wysokości linii */
+  color: inherit;          /* zachowaj kolor z rodzica */
+  display: inline;
+  vertical-align: baseline; /* niech litera siedzi równo z linią tekstu */
+}
+
 
 /* --- Responsive scaling and horizontal shift --- */
 
@@ -473,7 +492,7 @@ mask-image: linear-gradient(to bottom,
   margin: 0 auto;
   text-align: left;
   position: relative;
-  margin-top: -10rem;
+  margin-top: -7rem;
 }
 
 .donation-intro {

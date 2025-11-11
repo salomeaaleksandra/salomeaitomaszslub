@@ -210,6 +210,7 @@ html {
 .countdown {
   margin-top: 70px;
   text-align: center;
+  margin-bottom: 70px;
 }
 
 .countdown-boxes {
@@ -293,7 +294,7 @@ html {
   text-align: left;
   max-width: 900px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: -50px;
 }
 
@@ -302,7 +303,7 @@ html {
   text-align: left;
   margin: 0 auto;
   font-weight: normal;
-  font-size: clamp(40px, 10vw, 110px);
+  font-size: clamp(50px, 11vw, 110px);
   color: #2b2b2b;
   font-feature-settings: "liga" 1, "clig" 1, "calt" 1;
   font-variant-ligatures: common-ligatures contextual;
@@ -468,23 +469,24 @@ html {
   filter: contrast(1.4) brightness(1.05) grayscale(20%);
 -webkit-mask-image: linear-gradient(to bottom,
   rgba(0, 0, 0, 0) 0%,           /* całkowicie przezroczysty na samym początku */
-  rgba(0, 0, 0, 0.3) 8%,         /* lekkie zacienienie od góry */
-  rgba(0, 0, 0, 1) 15%,          /* pełna widoczność zaczyna się od 15% */
-  rgba(0, 0, 0, 1) 78%,          /* obraz widoczny do 80% wysokości */
-  rgba(0, 0, 0, 0.5) 87%,        /* delikatne przejście zaczyna się przy 90% */
-  rgba(0, 0, 0, 0.2) 92%,        /* coraz jaśniej */
+  rgba(0, 0, 0, 0.3) 5%,         /* lekkie zacienienie od góry */
+  rgba(0, 0, 0, 1) 10%,          /* pełna widoczność zaczyna się od 15% */
+  rgba(0, 0, 0, 1) 85%,          /* obraz widoczny do 80% wysokości */
+  rgba(0, 0, 0, 0.5) 92%,        /* delikatne przejście zaczyna się przy 90% */
+  rgba(0, 0, 0, 0.2) 95%,        /* coraz jaśniej */
   transparent 100%);            /* całkowicie znika na dole */
 
 mask-image: linear-gradient(to bottom,
   rgba(0, 0, 0, 0) 0%,
-  rgba(0, 0, 0, 0.3) 8%,
-  rgba(0, 0, 0, 1) 15%,
-  rgba(0, 0, 0, 1) 80%,
-  rgba(0, 0, 0, 0.5) 90%,
-  rgba(0, 0, 0, 0.2) 97%,
+  rgba(0, 0, 0, 0.3) 5%,
+  rgba(0, 0, 0, 1) 10%,
+  rgba(0, 0, 0, 1) 85%,
+  rgba(0, 0, 0, 0.5) 92%,
+  rgba(0, 0, 0, 0.2) 95%,
   transparent 100%);
 
 }
+
 
 .donation-section {
   padding: 4rem 2rem;

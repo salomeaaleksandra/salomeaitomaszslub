@@ -216,6 +216,14 @@ html {
   margin-bottom: 70px;
 }
 
+.countdown-intro {
+  font-size: 22px;
+  font-weight: normal;
+  color: #2b2b2b;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
 .countdown-boxes {
   display: flex;
   justify-content: center;
